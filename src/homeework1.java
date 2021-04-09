@@ -9,22 +9,22 @@ public class homeework1 {
          int total=78;
          int[] array=new int[total];
          int[] array1={5,6,7};
-         int uznunluk= intarray.length;
+         int lengthOf= intarray.length;
         System.out.println("intarray.lenght"+intarray.length);
         for (int i = 0; i < array1.length; i++) {
             System.out.println("elemanöar"+array1[i]);
-            String[]birinci={"a","b","c"};
-            String[]ikiinci=new String[3];
-            ikiinci=birinci.clone();
-            for (int j = 0; j < ikiinci.length ; j++) {
-                System.out.println("ikinci"+ikiinci[j]);
+            String[]first={"a","b","c"};
+            String[]second=new String[3];
+            second=first.clone();
+            for (int j = 0; j < second.length ; j++) {
+                System.out.println("second"+second[j]);
 
 
 
 
             }
-            boolean aynimi=birinci.equals(ikiinci);
-            System.out.println("dpgrumu"+aynimi);
+            boolean isEqual=first.equals(second);
+            System.out.println("is Right"+isEqual);
 
 
 
